@@ -4,19 +4,19 @@ import java.util.Date;
 
 public class Invoice {
 	
-	private Long id;
+	private long id;
     private double amount;
     private Date invoiceDate;
-    public Invoice (Long id, double amount, Date invoiceDate) {
+    public Invoice (long id, double amount, Date invoiceDate) {
     	this.id=id;
     	this.amount=amount;
     	this.invoiceDate=invoiceDate;
     	
     }
-	public Long getId() {
+	public long getId() {
 		return id;
 	}
-	public void setId(Long id) {
+	public void setId(long id) {
 		this.id = id;
 	}
 	public double getAmount() {
