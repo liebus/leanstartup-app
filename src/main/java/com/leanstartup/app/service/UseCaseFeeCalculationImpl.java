@@ -10,7 +10,7 @@ public class UseCaseFeeCalculationImpl implements FeeCalculation {
 		
 		double amount = invoice.getAmount();
 		double fee =0.0;
-		if (amount <= 100000)
+		if (amount < 100000)
 			fee = amount * .2;
 		else
 			fee = amount * .1;
