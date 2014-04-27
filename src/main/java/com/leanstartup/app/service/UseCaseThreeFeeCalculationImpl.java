@@ -1,9 +1,5 @@
 package com.leanstartup.app.service;
-
-import java.util.ArrayList;
-
 import com.leanstartup.app.domain.Invoice;
-import com.leanstartup.app.domain.Rate;
 import com.leanstartup.app.util.RateUtil;
 
 public class UseCaseThreeFeeCalculationImpl implements FeeCalculation {
